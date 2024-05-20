@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Ecommerce Website</title>
+</head>
+<body>
+    <!-- create a navbar -->
+    <section id="header">
+        <a href="#"><img src="./images/logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <!-- <li><a class="active" href="cart.html">cart</a></li> -->
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <!-- <i id="bar" class="fa-solid fa-bars"></i> -->
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- create a main section -->
+    <section id="page-header4">
+        <h2>#cart</h2>
+        <p>add your coupon code & <span>save</span> upto 70%</p>
+    </section>
+
+    <section id="cart" class="selection-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>remove</td>
+                    <td>image</td>
+                    <td>product</td>
+                    <td>price</td>
+                    <td>quantity</td>
+                    <td>subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./images/products/f1.jpg" alt="#"></td>
+                    <td>Cartoon Astronaut t-shirts</td>
+                    <td>$78.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$78.00</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./images/products/f2.jpg" alt="#"></td>
+                    <td>printed Astronaut t-shirts</td>
+                    <td>$99.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$99.00</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="./images/products/f3.jpg" alt="#"></td>
+                    <td>Cartoon Astronaut t-shirts</td>
+                    <td>$67.00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$67.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="selection-p1">
+        <div id="coupon">
+            <h3>apply coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your coupon">
+                <button class="normal">apply</button>
+            </div>
+        </div>
+
+        <div id="sub-total">
+            <h3>cart totals</h3>
+            <table>
+                <tr>
+                    <td>cart subtotal</td>
+                    <td>$ 349</td>
+                </tr>
+
+                <tr>
+                    <td>shiping</td>
+                    <td>free</td>
+                </tr>
+
+                <tr>
+                    <td><strong>total</strong></td>
+                    <td><strong>$ 349</strong></td>
+                </tr>
+            </table>
+
+            <button class="normal">proceed to checkout</button>
+        </div>
+    </section>
+
+    
+    <!-- footer -->
+    <footer id="footer"  class="selection-p1">
+        <div class="col">
+            <div class="logo">
+            <img src="./images/logo.png" alt="#">
+            </div>
+            <h4>contact</h4>
+            <p><strong>address:</strong> 562 wellington road, street 32, san francisco</p>
+            <p><strong>phone:</strong> +01 2222 365 /(+91)01 2345 6789</p>
+            <p><strong>hours:</strong> 10:00 - 18:00, mon - sat</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>about</h4>
+            <a href="#">about us</a>
+            <a href="#">delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">terms & condition</a>
+            <a href="#">contact us</a>
+        </div>
+
+        
+        <div class="col">
+            <h4>accoount</h4>
+            <a href="#">sign in</a>
+            <a href="#">view cart</a>
+            <a href="#">my wishlist</a>
+            <a href="#">track my order</a>
+            <a href="#">help</a>
+        </div>
+
+        
+        <div class="col install">
+            <h4>install app</h4>
+            <p>from app store or google play</p>
+            <div class="row">
+                <img src="./images/pay/app.jpg" alt="#">
+                <img src="./images/pay/play.jpg" alt="#">    
+            </div>
+            <p>secure payment gateway</p>
+            <img src="./images/pay/pay.png" alt="#">
+        </div>
+
+        <div class="copyright">
+            @ 2024 - E-commerce clone by Mohit Rathore
+        </div>
+    </footer>
+
+    <!-- link javascript file -->
+    <script src="script.js"></script>
+
+    <!-- link font awesome icons -->
+    <script src="https://kit.fontawesome.com/1a5f1fc0de.js" crossorigin="anonymous"></script>
+</body>
+</html>

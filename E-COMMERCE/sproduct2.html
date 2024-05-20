@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Ecommerce Website</title>
+</head>
+<body>
+    <!-- create a navbar -->
+    <section id="header">
+        <a href="#"><img src="./images/logo.png" class="logo" alt="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  class="active"  href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <!-- <i id="bar" class="fa-solid fa-bars"></i> -->
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="selection-p1">
+        <div class="single-pro-image">
+            <img src="./images/products/n1.jpg" width="100%" id="mainimg" alt="#">
+            <div class="small-img-grp">
+                <div class="small-img1">
+                    <img src="./images/products/n1.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img1">
+                    <img src="./images/products/n2.jpg" width="100%" class="small-img" alt="">
+                </div>
+
+                <div class="small-img1">
+                    <img src="./images/products/n3.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="single-pro-details">
+            <h6>home / t-shirt</h6>
+            <h4>plain t-shirt</h4>
+            <h3>$49.00 - 59.00</h3>
+            <select>
+                <option>Select Size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+
+            <input type="number" value="1">
+            <button class="normal">add to cart</button>
+            <h4>product details</h4>
+            <span>the gilden ultra cotton t-shirts is made from a substansial 6.0 oz. per sq. yd. febric constructed from 100% cotton, this classic fit preshrunk jersy knit provides unmatched comfort with each wear. featuring a taped nack and shoulder, and a seamless double needle collar, and available in a range of color, it offers it all in the ultimate head turning package. </span>
+        </div>
+    </section>
+
+    <section id="product1" class="selection-p1">
+        <h2>featured products</h2>
+        <p>summer collection new morder design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="./images/products/n1.jpg" alt="#">
+                <div class="dis">
+                    <span>adidas</span>
+                    <h5>t-shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$49</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping " id="cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="./images/products/n2.jpg" alt="#">
+                <div class="dis">
+                    <span>bewkoof</span>
+                    <h5>cheks t-shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$59</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping " id="cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="./images/products/n3.jpg" alt="#">
+                <div class="dis">
+                    <span>adidas</span>
+                    <h5>plain t-shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$49</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping " id="cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="./images/products/n4.jpg" alt="#">
+                <div class="dis">
+                    <span>bewkoof</span>
+                    <h5>printed t-shirts</h5>
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>$69</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping " id="cart"></i></a>
+            </div>  
+    </section>
+
+    <section id="newslatter" class="selection-p1 selection-m1">
+        <div class="newstext">
+            <h4>sign up for newslatter</h4>
+            <p>get e-mail updates about our latest shop and <span>special offers</span> </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your Email Address">
+            <button class="normal">sign up</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer"  class="selection-p1">
+        <div class="col">
+            <div class="logo">
+            <img src="./images/logo.png" alt="#">
+            </div>
+            <h4>contact</h4>
+            <p><strong>address:</strong> 562 wellington road, street 32, san francisco</p>
+            <p><strong>phone:</strong> +01 2222 365 /(+91)01 2345 6789</p>
+            <p><strong>hours:</strong> 10:00 - 18:00, mon - sat</p>
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>about</h4>
+            <a href="#">about us</a>
+            <a href="#">delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">terms & condition</a>
+            <a href="#">contact us</a>
+        </div>
+
+        
+        <div class="col">
+            <h4>accoount</h4>
+            <a href="#">sign in</a>
+            <a href="#">view cart</a>
+            <a href="#">my wishlist</a>
+            <a href="#">track my order</a>
+            <a href="#">help</a>
+        </div>
+
+        
+        <div class="col install">
+            <h4>install app</h4>
+            <p>from app store or google play</p>
+            <div class="row">
+                <img src="./images/pay/app.jpg" alt="#">
+                <img src="./images/pay/play.jpg" alt="#">    
+            </div>
+            <p>secure payment gateway</p>
+            <img src="./images/pay/pay.png" alt="#">
+        </div>
+
+        <div class="copyright">
+            @ 2024 - E-commerce clone by Mohit Rathore
+        </div>
+    </footer>
+
+    <!-- write javascript  -->
+    <script>
+        let mainimage = document.getElementById('mainimg');
+        let smallimage = document.getElementsByClassName("small-img");
+
+        smallimage[0].onclick = function(){
+            mainimage.src =smallimage[0].src;
+        }
+
+        smallimage[1].onclick = function(){
+            mainimage.src =smallimage[1].src;
+        }
+
+        smallimage[2].onclick = function(){
+            mainimage.src =smallimage[2].src;
+        }
+
+        smallimage[3].onclick = function(){
+            mainimage.src =smallimage[3].src;
+        }
+    </script>
+
+    <!-- link font awesome icons -->
+    <script src="https://kit.fontawesome.com/1a5f1fc0de.js" crossorigin="anonymous"></script>
+</body>
+</html>
